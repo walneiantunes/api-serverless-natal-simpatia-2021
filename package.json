@@ -1,0 +1,29 @@
+{
+  "name": "api-serverless-natal-simpatia-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "offline": "serverless offline start",
+    "deploy": "serverless deploy --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walneiantunes/api-serverless-natal-simpatia-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walneiantunes/api-serverless-natal-simpatia-2021/issues"
+  },
+  "homepage": "https://github.com/walneiantunes/api-serverless-natal-simpatia-2021#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.2.0"
+  }
+}
